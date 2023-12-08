@@ -33,6 +33,9 @@ border-radius: 28px;
  z-index: 2;
 background: var(--666CA3, #666CA3) !important;
 }
+.footer{
+    width: 100%;
+}
 .footer__btn{
     border-radius: 28px;
 background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
@@ -81,7 +84,7 @@ font-weight: 800;
     }
     >.skill__first__right img{
      right: -142px;
-         width: 600px;  /**/
+         width: 620px;  /**/
         position: absolute;
         /* z-index: -1; */
         top: -90px;
@@ -157,7 +160,7 @@ line-height: 40px;
     } 
 @media screen and (max-width: 960px) {
         .skill__first__right img{
-            right: -134px !important;
+            right: -104px !important;
             width: 340px !important;  /**/
             position: absolute !important;
             top: -30px !important;
